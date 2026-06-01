@@ -1,0 +1,20 @@
+# virtual environment
+xxray/
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# vscode
+.vscode/
+
+# model outputs
+runs/
+checkpoints/
+*.pth
+*.pt
