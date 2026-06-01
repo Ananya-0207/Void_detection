@@ -125,22 +125,6 @@ python evaluate.py --ckpt checkpoints/last_model.pth
 
 ---
 
-## Google Colab tips
-
-1. Upload your `void_dataset/` folder to Google Drive
-2. Mount Drive:
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-```
-3. In `config.py` set:
-```python
-DATASET_DIR = "/content/drive/MyDrive/void_dataset"
-```
-4. If DataLoader crashes, set `NUM_WORKERS = 0` in config.py
-5. If GPU OOM, reduce `BATCH_SIZE = 2` in config.py
-
----
 
 ## File structure
 
@@ -179,18 +163,3 @@ Paper results on their dataset (Table 3):
 
 ---
 
-## Adding more data
-
-Just drop new `.png` + `.json` pairs into your `void_dataset/` folder
-and update the split sizes in `config.py`. No other changes needed.
-
-**To annotate new images:** use [Labelme](https://github.com/labelmeai/labelme)
-and label void regions as **"void"** (polygon or rectangle).
-```bash
-pip install labelme
-labelme
-```
-=======
-# X-ray_void_detection-
->>>>>>> 5ce41a5b1a485f02d48915d692d813b1eb8f1d16
-"# X-ray_void_detection-" 
