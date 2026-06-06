@@ -18,3 +18,9 @@ runs/
 checkpoints/
 *.pth
 *.pt
+
+# Ignore LED study dataset
+hellastudy-of-leds2/
+hellastudy-of-leds2.zip
+
+*.zip
