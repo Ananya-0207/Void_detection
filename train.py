@@ -7,14 +7,13 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 from tqdm import tqdm
-
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import config
-from dataset              import get_dataloaders
+from dataset import get_dataloaders
 from models.pcb_deeplabv3 import PCBDeepLabV3
-from utils.metrics        import MetricAccumulator
-from utils.visualization  import plot_training_curves
+from utils.metrics import MetricAccumulator
+from utils.visualization import plot_training_curves
 
 
 
@@ -220,7 +219,7 @@ def train():
                 "val_loss"    : val_loss,
                 "val_miou"    : val_m["mIOU"],
             }, best_ckpt)
-            print(f"  ✓ Best model saved  (val_loss={val_loss:.4f})")
+            print(f"✓ Best model saved  (val_loss={val_loss:.4f})")
         else:
             no_improve += 1
 
