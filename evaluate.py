@@ -175,7 +175,7 @@ def evaluate(
     # Final metrics
 
     final = accumulator.print_summary("Test set")
-    fields = ["filename","mIOU","MPA","CPA","Recall","Dice","F1",]
+    fields = ["filename","mIOU","MPA","CPA","Recall","Dice","F1","status","note"]
 
     with open(csv_path,"w",newline="",encoding="utf-8") as f:
 
