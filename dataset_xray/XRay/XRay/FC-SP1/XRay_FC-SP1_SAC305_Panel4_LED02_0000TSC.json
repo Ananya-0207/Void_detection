@@ -1,0 +1,40 @@
+{
+  "version": "6.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "void",
+      "points": [
+        [
+          81.76229508196721,
+          116.18852459016395
+        ],
+        [
+          84.6311475409836,
+          115.36885245901641
+        ],
+        [
+          86.88524590163934,
+          117.21311475409837
+        ],
+        [
+          85.86065573770492,
+          119.672131147541
+        ],
+        [
+          81.9672131147541,
+          119.4672131147541
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "XRay_FC-SP1_SAC305_Panel4_LED02_0000TSC.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 200
+}

@@ -1,0 +1,36 @@
+{
+  "version": "6.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "void",
+      "points": [
+        [
+          81.55737704918033,
+          51.84426229508197
+        ],
+        [
+          86.27049180327869,
+          51.84426229508197
+        ],
+        [
+          85.45081967213115,
+          55.942622950819676
+        ],
+        [
+          82.37704918032787,
+          55.73770491803279
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "XRay_FC-SP1_SAC105_Panel3_LED09_0000TSC.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 200
+}

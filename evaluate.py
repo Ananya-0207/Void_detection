@@ -16,7 +16,7 @@ from utils.visualization import compare_predictions
 
 import matplotlib.pyplot as plt
 
-'''
+
 # Save prediction overlay
 
 def save_prediction_overlay(image, gt_mask, pred_mask, save_path):
@@ -43,7 +43,7 @@ def save_prediction_overlay(image, gt_mask, pred_mask, save_path):
     plt.savefig(save_path, bbox_inches="tight")
     plt.close()
 
-'''
+
 
 # Load checkpoint
 

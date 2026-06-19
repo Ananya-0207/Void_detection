@@ -1,0 +1,40 @@
+{
+  "version": "6.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "void",
+      "points": [
+        [
+          123.5655737704918,
+          113.52459016393443
+        ],
+        [
+          127.6639344262295,
+          111.06557377049181
+        ],
+        [
+          129.50819672131146,
+          112.50000000000001
+        ],
+        [
+          128.89344262295083,
+          117.00819672131148
+        ],
+        [
+          123.36065573770492,
+          117.21311475409837
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "XRay_FC-SP1_SAC107-BiIn_Panel2_LED01_0000TSC.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 200
+}
