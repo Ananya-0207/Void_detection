@@ -747,6 +747,32 @@
       "shape_type": "polygon",
       "flags": {},
       "mask": null
+    },
+    {
+      "label": "void",
+      "points": [
+        [
+          76.63934426229508,
+          131.35245901639345
+        ],
+        [
+          80.94262295081967,
+          130.5327868852459
+        ],
+        [
+          81.14754098360655,
+          135.45081967213116
+        ],
+        [
+          78.07377049180329,
+          135.65573770491804
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
     }
   ],
   "imagePath": "XRay_FC-GB3_SAC305_Panel4_LED09_0000TSC.jpg",

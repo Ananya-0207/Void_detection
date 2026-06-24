@@ -471,6 +471,32 @@
       "shape_type": "polygon",
       "flags": {},
       "mask": null
+    },
+    {
+      "label": "void",
+      "points": [
+        [
+          148.32923832923834,
+          167.66584766584765
+        ],
+        [
+          151.03194103194105,
+          167.4201474201474
+        ],
+        [
+          153.4889434889435,
+          174.54545454545453
+        ],
+        [
+          149.8034398034398,
+          174.54545454545453
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
     }
   ],
   "imagePath": "XRay_FC-GB1_SAC105_Panel1_LED01_0000TSC.jpg",
